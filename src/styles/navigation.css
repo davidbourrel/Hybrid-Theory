@@ -1,0 +1,32 @@
+.navbar-logo {
+  height: 50px;
+}
+
+.nav-link {
+  padding: 1rem !important;
+  transition: all 0.3s ease;
+  font-weight: bold !important;
+  color: #404145 !important;
+}
+
+.nav-link:hover {
+  background-color: #1dbf73;
+  color: white !important;
+}
+
+.hamburger-react {
+  color: #1dbf73;
+}
+
+.hamburger-react div div {
+  height: 6px !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+.active {
+  color: #1dbf73 !important;
+}

@@ -1,0 +1,50 @@
+.page {
+  height: 100vh;
+  background-color: rgba(255, 255, 255);
+}
+.left {
+  background-color: #f5f5f5;
+}
+.right {
+  background-color: rgba(29, 191, 115, 0.2);
+}
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3vw;
+  color: #1dbf73;
+  position: relative;
+}
+.left > a,
+.right > a {
+  height: 100%;
+  width: 100%;
+}
+
+.left a p,
+.right a p {
+  font-weight: 800;
+  text-align: center;
+  line-break: loose;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.page div {
+  transition: all 0.7s ease;
+}
+.page div:hover {
+  background-image: url(../assets/images/fiverr.png);
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: cover;
+}
+.logo-bg:hover .page {
+  background-color: white;
+}
+.page div:hover p {
+  color: #404145;
+}

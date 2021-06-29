@@ -1,0 +1,60 @@
+.forumpage {
+  height: 70vh;
+}
+.forumpage:hover {
+  cursor: pointer;
+}
+
+.side1,
+.side2 {
+  padding: 0 !important;
+}
+
+.forumpage a:hover {
+  background-color: #1dbf73;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.side1 > a,
+.side2 > a {
+  color: #1dbf73;
+  font-size: 3vw;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.side1 h2,
+.side2 h2 {
+  position: relative;
+  font-weight: 800;
+}
+
+.side1:hover h2 .side2:hover h2 {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.side1 h2::before,
+.side2 h2::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  background-color: #404145;
+  bottom: -10px;
+  transition: all 0.5s ease;
+}
+
+.side1:hover h2::before,
+.side2:hover h2::before {
+  content: '';
+  width: 100%;
+  height: 5px;
+}
