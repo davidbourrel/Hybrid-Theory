@@ -3,6 +3,7 @@ import { Navigation } from '../../components/Navigation';
 import { ChooseForum } from '../../components/ChooseForum';
 import { SecondaryNavbar } from '../../components/SecondaryNavbar';
 import data from '../../categoriesDTO.json';
+import { Footer } from '../../components/Footer';
 
 export const ProgrammingTech = () => {
   return (
@@ -13,6 +14,7 @@ export const ProgrammingTech = () => {
         Programming & Tech
       </h1>
       <ChooseForum />
+      <Footer />
     </>
   );
 };

@@ -3,6 +3,7 @@ import { Navigation } from '../../components/Navigation';
 import { ChooseForum } from '../../components/ChooseForum';
 import { SecondaryNavbar } from '../../components/SecondaryNavbar';
 import data from '../../categoriesDTO.json';
+import { Footer } from '../../components/Footer';
 
 export const DigitalMarketing = () => {
   return (
@@ -13,6 +14,7 @@ export const DigitalMarketing = () => {
         Digital Marketing
       </h1>
       <ChooseForum />
+      <Footer />
     </>
   );
 };

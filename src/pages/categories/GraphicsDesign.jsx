@@ -3,6 +3,7 @@ import { Navigation } from '../../components/Navigation';
 import { ChooseForum } from '../../components/ChooseForum';
 import { GraphicsDesignNavbar } from '../../components/GraphicsDesignNavbar';
 import data from '../../categoriesDTO.json';
+import { Footer } from '../../components/Footer';
 
 export const GraphicsDesign = () => {
   return (
@@ -13,6 +14,7 @@ export const GraphicsDesign = () => {
         Graphics & Design
       </h1>
       <ChooseForum />
+      <Footer />
     </>
   );
 };

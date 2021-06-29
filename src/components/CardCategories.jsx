@@ -10,20 +10,14 @@ import music from '../assets/images/categories/music.jpg';
 import programming from '../assets/images/categories/programming.jpg';
 import video from '../assets/images/categories/video.jpg';
 import translation from '../assets/images/categories/translation.jpg';
+import '../styles/cardCategories.css';
 
 export const CardCategories = () => {
   return (
     <Row>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img
-            variant='top'
-            src={business}
-            style={{ maxHeight: '190px' }}
-          />
+        <Card className='shadow cardStyle'>
+          <Card.Img variant='top' src={business} className='imageStyle' />
           <Card.Body>
             <Card.Title>Business</Card.Title>
             <Link to='business'>
@@ -35,11 +29,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img variant='top' src={data} style={{ maxHeight: '190px' }} />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={data} className='imageStyle' />
           <Card.Body>
             <Card.Title>Data</Card.Title>
             <Link to='data'>
@@ -51,14 +42,11 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
+        <Card className='shadow cardStyle '>
           <Card.Img
             variant='top'
             src={digitalMarketing}
-            style={{ maxHeight: '190px' }}
+            className='imageStyle'
           />
           <Card.Body>
             <Card.Title>Digital Marketing</Card.Title>
@@ -71,15 +59,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img
-            variant='top'
-            src={graphicsDesign}
-            style={{ maxHeight: '190px' }}
-          />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={graphicsDesign} className='imageStyle' />
           <Card.Body>
             <Card.Title>Graphics & Design</Card.Title>
             <Link to='graphics-design'>
@@ -91,15 +72,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img
-            variant='top'
-            src={lifestyle}
-            style={{ maxHeight: '190px' }}
-          />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={lifestyle} className='imageStyle' />
           <Card.Body>
             <Card.Title>Lifestyle</Card.Title>
             <Link to='lifestyle'>
@@ -111,11 +85,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img variant='top' src={music} style={{ maxHeight: '190px' }} />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={music} className='imageStyle' />
           <Card.Body>
             <Card.Title>Music & Audio</Card.Title>
             <Link to='music-audio'>
@@ -127,15 +98,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img
-            variant='top'
-            src={programming}
-            style={{ maxHeight: '190px' }}
-          />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={programming} className='imageStyle' />
           <Card.Body>
             <Card.Title>Programming & Tech</Card.Title>
             <Link to='programming'>
@@ -147,11 +111,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img variant='top' src={video} style={{ maxHeight: '190px' }} />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={video} className='imageStyle' />
           <Card.Body>
             <Card.Title>Video & Animation</Card.Title>
             <Link to='video-animation'>
@@ -163,15 +124,8 @@ export const CardCategories = () => {
         </Card>
       </Col>
       <Col md>
-        <Card
-          className='shadow '
-          style={{ width: '18rem', marginBottom: '2rem', maxHeight: '293px' }}
-        >
-          <Card.Img
-            variant='top'
-            src={translation}
-            style={{ maxHeight: '190px' }}
-          />
+        <Card className='shadow cardStyle '>
+          <Card.Img variant='top' src={translation} className='imageStyle' />
           <Card.Body>
             <Card.Title>Writing & Translation</Card.Title>
             <Link to='writing-translation'>
