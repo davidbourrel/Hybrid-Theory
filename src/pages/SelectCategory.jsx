@@ -10,7 +10,7 @@ export const SelectCategory = () => {
         Find the perfect freelance services for your business
       </h1>
       <h2 className='py-5 px-3 text-secondary fw-bold text-center'>
-        Which category are you looking for ?
+        What category of job are you looking for ?
       </h2>
       <Container>
         <CardCategories />
