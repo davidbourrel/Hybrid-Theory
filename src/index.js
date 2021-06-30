@@ -10,8 +10,9 @@ import './styles/index.css';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <ScrollToTop />
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
